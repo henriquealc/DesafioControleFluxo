@@ -31,8 +31,6 @@ public class contador {
         if (numUm > numDois){
             throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro.");
         }
-            
-
 
         for(int x = numUm; x <= numDois; x++){
             System.out.println("Imprimindo o número: " + x);
